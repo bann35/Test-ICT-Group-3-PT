@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraLink Enterprise - Smart Climate Automation</title>
+    <style>
+        /* Premium Tech Startup Global Styles */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #0D1117; /* Deep Navy/Charcoal Dark Mode */
+            color: #C9D1D9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            width: 90%;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        /* 🔴 Embedded Offline "Climate Crisis" Heavy Block Title Style */
+        .title-wrapper {
+            margin: 20px auto 15px auto;
+            display: block;
+            width: 100%;
+            max-width: 650px; 
+            /* Atmospheric Smog & Warning Glow Effect */
+            filter: drop-shadow(0 0 15px rgba(248, 81, 73, 0.6));
+            animation: pulseGlow 4s ease-in-out infinite;
+        }
+
+        @keyframes pulseGlow {
+            0%, 100% { filter: drop-shadow(0 0 12px rgba(248, 81, 73, 0.4)); }
+            50% { filter: drop-shadow(0 0 25px rgba(88, 166, 255, 0.7)); }
+        }
+
+        .tagline {
+            color: #8B949E;
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            font-weight: 400;
+        }
+
+        /* 🟢 Unbreakable Static Call-to-Action Link Button */
+        .btn-cta {
+            display: inline-block;
+            background-color: #238636; /* Vibrant Green Action Button */
+            color: #FFFFFF;
+            padding: 14px 28px;
+            font-size: 1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .btn-cta:hover {
+            background-color: #2ea44f;
+            transform: translateY(-2px);
+            box-shadow: 0 0 15px rgba(46, 164, 79, 0.4);
+        }
+
+        /* Live Command Center Console Layout */
+        .dashboard-panel {
+            background-color: #161B22; /* High-Tech Card Fill */
+            border: 1px solid #30363D;
+            border-radius: 12px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 30px;
+            margin: 50px 0;
+            text-align: left;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .column {
+            border-right: 1px solid #21262D;
+            padding-right: 15px;
+        }
+
+        .column:last-child {
+            border-right: none;
+            padding-right: 0;
+        }
+
+        .column h3 {
+            color: #FFFFFF;
+            font-size: 1.1rem;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        /* Status Alerts & Glow Badges */
+        .badge {
+            display: inline-block;
+            padding: 6px 12px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+
+        .badge-danger {
+            background-color: rgba(248, 81, 73, 0.15);
+            color: #FF7B72;
+            border: 1px solid rgba(248, 81, 73, 0.4);
+        }
+
+        .badge-success {
+            background-color: rgba(56, 139, 253, 0.15);
+            color: #58A6FF;
+            border: 1px solid rgba(56, 139, 253, 0.4);
+        }
+
+        .metric-value {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin: 5px 0;
+        }
+
+        .metric-desc {
+            font-size: 0.9rem;
+            color: #8B949E;
+            margin: 0;
+        }
+
+        /* Core Features Structural Layout */
+        .features-section {
+            text-align: left;
+            margin-top: 40px;
+            border-top: 1px solid #21262D;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .features-section h2 {
+            color: #FFFFFF;
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+        }
+
+        .feature-item {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .feature-title {
+            color: #58A6FF;
+            font-weight: 600;
+        }
+
+        /* 👥 Premium Modern Team Footer */
+        .site-footer {
+            border-top: 1px solid #21262D;
+            padding-top: 30px;
+            margin-top: 20px;
+            color: #8B949E;
+            font-size: 0.85rem;
+            line-height: 1.8;
+        }
+        
+        .team-title {
+            color: #FFFFFF;
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 🎨 SVG Title with fixed spacing for the letter K -->
+        <svg class="title-wrapper" viewBox="0 0 670 65" xmlns="http://w3.org">
+            <defs>
+                <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#FF7B72" />
+                    <stop offset="50%" stop-color="#F85149" />
+                    <stop offset="100%" stop-color="#58A6FF" />
+                </linearGradient>
+            </defs>
+            <g fill="url(#textGrad)">
+                <path d="M 0 65 L 20 0 L 60 0 L 80 65 L 53 65 L 48 46 L 31 46 L 26 65 Z M 35 30 L 44 30 L 40 14 Z"/>
+                <path d="M 95 0 L 123 0 L 123 42 C 123 48 126 51 132 51 C 138 51 141 48 141 42 L 141 0 L 169 0 L 169 42 C 169 57 157 66 132 66 C 107 66 95 57 95 42 Z"/>
+                <path d="M 185 0 L 230 0 C 248 0 258 7 258 20 C 258 30 250 36 238 38 L 262 65 L 231 65 L 211 41 L 211 65 L 185 65 Z M 211 25 L 225 25 C 230 25 232 23 232 19 C 232 15 230 14 225 14 L 211 14 Z"/>
+                <path d="M 273 65 L 293 0 L 333 0 L 353 65 L 326 65 L 321 46 L 304 46 L 299 65 Z M 308 30 L 317 30 L 313 14 Z"/>
+                <path d="M 368 0 L 395 0 L 395 48 L 433 48 L 433 65 L 368 65 Z"/>
+                <path d="M 449 0 L 476 0 L 476 65 L 449 65 Z"/>
+                <path d="M 491 0 L 518 0 L 539 36 L 539 0 L 565 0 L 565 65 L 540 65 L 517 26 L 517 65 L 491 65 Z"/>
+                <path d="M 580 0 L 607 0 L 607 27 L 629 0 L 661 0 L 631 32 L 664 65 L 631 65 L 607 39 L 607 65 L 580 65 Z"/>
+            </g>
+        </svg>
+        
+        <p class="tagline">Smart Environmental Automation for Climate-Resilient Infrastructure</p>
+
+        <!-- 🔗 Keeps the button but routes it as an unbroken mail handshake anchor link -->
+        <a href="mailto:officeofthemayor@cebucity.gov.ph?subject=AuraLink%20LGU%20Pilot%20Request" class="btn-cta">Request LGU Pilot Access</a>
+
+        <!-- Real-Time Metrics Cloud Console Grid -->
+        <div class="dashboard-panel">
+            <div class="column">
+                <h3>🌬️ Atmospheric Quality</h3>
+                <span class="badge badge-danger">ACUTELY UNHEALTHY</span>
+                <p class="metric-value">155 µg/m³</p>
+                <p class="metric-desc">PM2.5 concentration trapped in local coastal valleys.</p>
+            </div>
+            
+            <div class="column">
+                <h3>⚡ Visayas Power Grid</h3>
+                <span class="badge badge-danger">RED ALERT</span>
+                <p class="metric-value">0 MW Capacity</p>
+                <p class="metric-desc">Rotational blackouts active across Metro Cebu due to thermal load stress.</p>
+            </div>
+            
+            <div class="column">
+                <h3>🏫 Connected Classrooms</h3>
+                <span class="badge badge-success">ISOLATED SANCTUARY</span>
+                <p class="metric-value">Active (99.97%)</p>
+                <p class="metric-desc">Standalone solar battery microgrid running industrial HEPA air scrubbers.</p>
+            </div>
+        </div>
+
+        <!-- Infrastructure Pillars Section -->
+        <div class="features-section">
+            <h2>Core System Infrastructure</h2>
+            
+            <div class="feature-item">
+                • <span class="feature-title">IoT Smart Monitoring</span> — Low-cost sensor units continuously stream live ambient pollution metrics straight to our cloud networks.
+            </div>
+            
+            <div class="feature-item">
+                • <span class="feature-title">Instant Mechanical Overrides</span> — Automated classroom window seals lock into position the moment microclimate thresholds breach safe tiers.
+            </div>
+            
+            <div class="feature-item">
+                • <span class="feature-title">Grid Deficit Rerouting</span> — Smart transfer switches instantly transition school ventilation and cooling arrays over to backup solar battery reserves.
+            </div>
+        </div>
+
+        <!-- 👥 Group Name & Members Footer Section -->
+        <footer class="site-footer">
+            <div class="team-title">Developed by ICT Project Group 3</div>
+            <div>Shaquille Joseph Cosep • Lord Kinley Dinampo • Meiane Saluta</div>
+            <div>Mary Nicole Marigomen • Alexis James Uy • Ashley Nicole Bejarasco</div>
+            <div style="margin-top: 10px; font-size: 0.75rem; color: #484f58;">© 2026 AuraLink Enterprise. All rights reserved.</div>
+        </footer>
+    </div>
+
+</body>
+</html>
